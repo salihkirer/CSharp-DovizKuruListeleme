@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "L2/WNLJaNTljl0/oZ5GU5OTPP8FTBFa3uIeysfNOx83q5Kg9kLJY0SkxqG8ot/RAfnmH4QcITtrMrHKkCL8Dcw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\salih\\Masaüstü\\DovizKuruAPI\\DovizKuruAPI\\DovizKuruAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\salih\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
