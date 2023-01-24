@@ -22,23 +22,23 @@ namespace DovizKuruAPI
                 jsonverisi = r.ReadToEnd();
             }
 
-            Altin altin = JsonConvert.DeserializeObject<Altin>(jsonverisi);
+            Doviz doviz = JsonConvert.DeserializeObject<Doviz>(jsonverisi);
 
 
-            label9.Text = altin.GA.alis;
-            label10.Text = altin.BTC.alis;
-            label11.Text = altin.USD.alis;
-            label12.Text = altin.EUR.alis;
+            label9.Text = doviz.GA.alis;
+            label10.Text = doviz.BTC.alis;
+            label11.Text = doviz.USD.alis;
+            label12.Text = doviz.EUR.alis;
 
-            label13.Text = altin.GA.satis;
-            label14.Text = altin.BTC.satis;
-            label15.Text = altin.USD.satis;
-            label16.Text = altin.EUR.satis;
+            label13.Text = doviz.GA.satis;
+            label14.Text = doviz.BTC.satis;
+            label15.Text = doviz.USD.satis;
+            label16.Text = doviz.EUR.satis;
 
-            label17.Text = altin.GA.degisim;
-            label18.Text = altin.BTC.degisim;
-            label19.Text = altin.USD.degisim;
-            label20.Text = altin.EUR.degisim;
+            label17.Text = doviz.GA.degisim;
+            label18.Text = doviz.BTC.degisim;
+            label19.Text = doviz.USD.degisim;
+            label20.Text = doviz.EUR.degisim;
         }
 
         private void Form1_Load(object sender, EventArgs e)

@@ -3,45 +3,46 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static DovizKuruAPI.DovizModel;
 
 namespace DovizKuruAPI
 {
     public class DovizModel
     {
-        public class GA
+        public class GramAltin
         {
             public string satis { get; set; }
             public string alis { get; set; }
             public string degisim { get; set; }
         }
 
-        public class BTC
+        public class Bitcoin
         {
             public string satis { get; set; }
             public string alis { get; set; }
             public string degisim { get; set; }
         }
 
-        public class USD
+        public class Dolar
         {
             public string satis { get; set; }
             public string alis { get; set; }
             public string degisim { get; set; }
         }
 
-        public class EUR
+        public class Euro
         {
             public string satis { get; set; }
             public string alis { get; set; }
             public string degisim { get; set; }
         }
 
-        public class Altin
+        public class Doviz
         {
-            public GA GA { get; set; }
-            public BTC BTC { get; set; }
-            public USD USD { get; set; }
-            public EUR EUR { get; set; }
+            public GramAltin GA { get; set; }
+            public Bitcoin BTC { get; set; }
+            public Dolar USD { get; set; }
+            public Euro EUR { get; set; }
         }
     }
 }
